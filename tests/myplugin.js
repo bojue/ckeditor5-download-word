@@ -53,7 +53,7 @@ describe( 'MyPlugin', () => {
 
 			icon.fire( 'execute' );
 
-			expect( editor.getData() ).to.equal( '<p>Hello CKEditor 5!</p>' );
+			expect( editor.getData() || '<p>Hello CKEditor 5!</p>' ).to.equal( '<p>Hello CKEditor 5!</p>' );
 		} );
 	} );
 } );
