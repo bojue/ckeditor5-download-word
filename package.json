@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-myy-export-word",
+  "name": "@ckeditor/ckeditor5-download-word",
   "version": "0.1.1",
   "description": "A plugin for CKEditor 5.",
   "keywords": [
