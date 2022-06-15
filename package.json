@@ -86,5 +86,8 @@
     "url": "git+https://git.mingyuanyun.com/mal08/ckeditor-export-word.git"
   },
   "author": "",
-  "homepage": "https://git.mingyuanyun.com/mal08/ckeditor-export-word.git#readme"
+  "homepage": "https://git.mingyuanyun.com/mal08/ckeditor-export-word.git#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
