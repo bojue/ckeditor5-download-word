@@ -1,7 +1,7 @@
-@ckeditor/ckeditor5-export-word
+export-word
 ===============================
 
-ckeditor5的Word下载插件
+ckeditor5编辑器下载Word插件
 
 ### `start`
 
