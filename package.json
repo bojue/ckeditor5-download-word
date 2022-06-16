@@ -1,6 +1,6 @@
 {
   "name": "@bojuenpm/ckeditor5-customer-export-word",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A plugin for CKEditor 5.",
   "keywords": [
     "ckeditor",
@@ -83,10 +83,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git.mingyuanyun.com/mal08/ckeditor-export-word.git"
+    "url": "git+https://github.com/bojue/ckeditor5-download-word.git"
   },
   "author": "",
-  "homepage": "https://git.mingyuanyun.com/mal08/ckeditor-export-word.git#readme",
+  "homepage": "https://github.com/bojue/ckeditor5-download-word",
   "publishConfig": {
     "access": "public"
   },
