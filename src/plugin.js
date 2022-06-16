@@ -30,9 +30,9 @@ function exportHTMLToWord(data = '') {
 	document.body.removeChild(fileDownload);
 }
 
-export default class MyPlugin extends Plugin {
+export default class ExportWordPlugin extends Plugin {
 	static get pluginName() {
-		return 'MyPlugin';
+		return 'ExportWordPlugin';
 	}
 
 	init() {
@@ -40,8 +40,8 @@ export default class MyPlugin extends Plugin {
 		const t = editor.t;
 		const model = editor.model;
 
-		// Add the "myPlugin" button to feature components.
-		editor.ui.componentFactory.add('myButton', (locale) => {
+		// Add the "ExportWordPlugin" button to feature components.
+		editor.ui.componentFactory.add('exportWord', (locale) => {
 			const view = new ButtonView(locale);
 
 			view.set({

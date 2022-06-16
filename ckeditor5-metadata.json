@@ -1,13 +1,13 @@
 {
 	"plugins": [
 		{
-			"name": "My plugin",
-			"className": "MyPlugin",
+			"name": "Export Word",
+			"className": "exportWordplugin",
 			"description": "Adds text to the editor.",
-			"path": "src/myplugin.js",
+			"path": "src/plugin.js",
 			"uiComponents": [
 				{
-					"name": "myButton",
+					"name": "exportWord",
 					"type": "Button",
 					"iconPath": "theme/icons/ckeditor.svg"
 				}

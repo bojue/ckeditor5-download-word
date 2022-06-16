@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-download-word",
+  "name": "@bojuenpm/ckeditor5-customer-export-word",
   "version": "0.1.1",
   "description": "A plugin for CKEditor 5.",
   "keywords": [
@@ -35,7 +35,7 @@
     "@ckeditor/ckeditor5-heading": ">=34.1.0",
     "@ckeditor/ckeditor5-image": ">=34.1.0",
     "@ckeditor/ckeditor5-indent": ">=34.1.0",
-    "@ckeditor/ckeditor5-inspector": ">=4.1.0",
+    "@ckeditor/ckeditor5-inspector": "^4.1.0",
     "@ckeditor/ckeditor5-link": ">=34.1.0",
     "@ckeditor/ckeditor5-list": ">=34.1.0",
     "@ckeditor/ckeditor5-media-embed": ">=34.1.0",
@@ -89,5 +89,8 @@
   "homepage": "https://git.mingyuanyun.com/mal08/ckeditor-export-word.git#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "npm": "^8.12.1"
   }
 }

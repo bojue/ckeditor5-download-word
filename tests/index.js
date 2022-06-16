@@ -1,11 +1,11 @@
-import { MyPlugin as MyPluginDll, icons } from '../src';
-import MyPlugin from '../src/myplugin';
+import { ExportWordPlugin as ExportWordPluginDll, icons } from '../src';
+import ExportWordPlugin from '../src/plugin';
 
 import ckeditor from './../theme/icons/ckeditor.svg';
 
-describe( 'CKEditor5 MyPlugin DLL', () => {
-	it( 'exports MyPlugin', () => {
-		expect( MyPluginDll ).to.equal( MyPlugin );
+describe( 'CKEditor5 ExportWordPlugin DLL', () => {
+	it( 'exports ExportWordPlugin', () => {
+		expect( ExportWordPluginDll ).to.equal( ExportWordPlugin );
 	} );
 
 	describe( 'icons', () => {

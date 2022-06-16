@@ -1,5 +1,5 @@
 import ckeditor from './../theme/icons/ckeditor.svg';
-export { default as MyPlugin } from './myplugin';
+export { default as ExportWordPlugin } from './ExportWordPlugin';
 
 export const icons = {
 	ckeditor

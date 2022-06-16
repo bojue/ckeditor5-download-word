@@ -2,13 +2,13 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-import MyPlugin from '../src/myplugin';
+import ExportWordPlugin from '../src/plugin';
 
 /* global document */
 
-describe( 'MyPlugin', () => {
+describe( 'ExportWordPlugin', () => {
 	it( 'should be named', () => {
-		expect( MyPlugin.pluginName ).to.equal( 'MyPlugin' );
+		expect( ExportWordPlugin.pluginName ).to.equal( 'ExportWordPlugin' );
 	} );
 
 	describe( 'init()', () => {
@@ -23,10 +23,10 @@ describe( 'MyPlugin', () => {
 					Paragraph,
 					Heading,
 					Essentials,
-					MyPlugin
+					ExportWordPlugin
 				],
 				toolbar: [
-					'myButton'
+					'exportWord'
 				]
 			} );
 		} );
@@ -36,18 +36,18 @@ describe( 'MyPlugin', () => {
 			return editor.destroy();
 		} );
 
-		it( 'should load MyPlugin', () => {
-			const myPlugin = editor.plugins.get( 'MyPlugin' );
+		it( 'should load ExportWordPlugin', () => {
+			const ExportWordPlugin = editor.plugins.get( 'ExportWordPlugin' );
 
-			expect( myPlugin ).to.be.an.instanceof( MyPlugin );
+			expect( ExportWordPlugin ).to.be.an.instanceof( ExportWordPlugin );
 		} );
 
 		it( 'should add an icon to the toolbar', () => {
-			expect( editor.ui.componentFactory.has( 'myButton' ) ).to.equal( true );
+			expect( editor.ui.componentFactory.has( 'exportWord' ) ).to.equal( true );
 		} );
 
 		it( 'should add a text into the editor after clicking the icon', () => {
-			const icon = editor.ui.componentFactory.create( 'myButton' );
+			const icon = editor.ui.componentFactory.create( 'exportWord' );
 
 			expect( editor.getData() ).to.equal( '' );
 
